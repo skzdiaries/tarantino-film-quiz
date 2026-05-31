@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tarantino film quiz</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="tarantino.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+     
+      <audio id = "bg-music" style = "width: 10; height: 0;  border: none; background: transparent; margin-left: 0; " src = "tarantino.mp3"  controls autoplay loop></audio>
+
+        <h2 style = "font-size: 50px; font-family: 'Alfa Slab One', cursive; text-shadow: 3px 2px 0 #c42424;">ARE YOU A TRUE TARANTINO FAN?</h2>
+
+        <div class = "container">
+            
+            <h4 style = "color:rgb(200, 135, 44);">1/15</h4>
+ 
+           <h1>Tarantino Film Quiz</h1>
+          
+           <div id = "quiz">
+           <div id = "question">Question Text</div>
+           <div id = "choices"></div>
+         
+           <button id = "btnNext">Next</button>
+        </div>
+        <div id = "result" class="hidden"></div>
+        <button id = "btnRestart" class="hidden">Restart Quiz?</button>
+        <div id = "timer">Time left: <span id="time">60</span>s</div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
+ 

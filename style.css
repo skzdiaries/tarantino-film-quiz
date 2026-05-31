@@ -1,0 +1,115 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #000000, #000000, #000000);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  /* overflow: hidden; */
+  border-width: 30px;
+          border-style: solid;
+          border-image: url("https://i.pinimg.com/1200x/45/88/b1/4588b1e7098e6b09b2d0ae482a780b34.jpg") 8 fill round;
+    border-image-slice: 30;
+    border-image-repeat: round;
+    border-radius: 20px;
+    border-bottom-width: 25px;
+    
+    
+}
+
+.container {
+   background-color: rgba(255, 233, 200, 0.9);
+   backdrop-filter: blur(10px);
+   padding: 5rem;
+  
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(81, 60, 60, 0.5);
+    text-align: center;
+    
+    max-width: 550px;
+    transition: all 0.3s ease-in-out;
+    
+
+   
+    
+    }
+h1{
+    color:#44210b;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Coustard', serif;
+    
+    /* text-shadow: 0 0 5px #d1331e, 0 0 10px #fd0e0e, 0 0 20px #fd0e0e; */
+}
+
+h2{
+    color:#fedc1b;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* text-shadow: 0 0 5px #d1331e, 0 0 10px #fd0e0e, 0 0 20px #fd0e0e; */
+}
+
+#question {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+   
+    color:#9c392c;
+    
+}
+
+#choices button {
+    background-color: #623e10;
+    color: #e8ac14;
+    font-family: 'Coustard', serif;
+   
+    border: solid 2px #623e10;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnNext, #btnRestart {
+   
+    background-color: #621c13;
+    color: #fbde09;
+    
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnNext:hover, #btnRestart:hover {
+    background-color: #960505;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
+
+#result {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #690d0d;
+    /* text-shadow: 0 0 5px #d1331e, 0 0 10px #fd0e0e, 0 0 20px #fd0e0e; */
+}
+
+#timer
+{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color:rgb(19, 48, 48);
+    /* text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff; */
+}
+
+.hidden{
+    display: none;
+}
