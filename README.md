@@ -7,7 +7,7 @@ A simple, interactive quiz to test your knowledge on films by Quentin Tarantino.
 ### Built With .✦ ݁˖
 This project was built with HTML, CSS and JavaScript on VS Code.
 ### Installation/Demo .✦ ݁˖
-Click the link! https://skzdiaries.github.io/dani-webpage/
+Click the link! https://skzdiaries.github.io/tarantino-film-quiz/
 ### Credits .✦ ݁˖
 Big thanks to all the people on Pinterest who created the backgrounds and images I used! 
 ### Contributions .✦ ݁˖
