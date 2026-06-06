@@ -9,7 +9,7 @@ This project was built with HTML, CSS and JavaScript on VS Code.
 ### Installation/Demo .✦ ݁˖
 Click the link! https://skzdiaries.github.io/tarantino-film-quiz/
 ### Credits .✦ ݁˖
-Big thanks to all the people on Pinterest who created the backgrounds and images I used! 
+Big thanks to all the people on Pinterest who created the backgrounds and images I used and the tutorial on youtube that helped me with some of the code.
 ### Contributions .✦ ݁˖
 Any contributions are welcome!
 ### Status .✦ ݁˖
